@@ -4,7 +4,7 @@ Adds support for RxJava 2 Observables to catnip.
 
 ## Usage
 
-Get it on Jitpack.
+[Get it on Jitpack](https://jitpack.io/#queer/catnip-rxjava2).
 
 Example usage:
 ```Java
