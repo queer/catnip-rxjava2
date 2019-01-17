@@ -9,7 +9,7 @@ Adds support for RxJava 2 Observables to catnip.
 Example usage:
 ```Java
 catnip.extensionManager()
-        .extension(ExtraReactivityExtension.class)
+        .extension(RxJava2Extension.class)
         .createObservable(DiscordEvent.MESSAGE_CREATE)
         // Your ID goes here
         .filter(msg -> msg.author().id().equalsIgnoreCase("128316294742147072"))
