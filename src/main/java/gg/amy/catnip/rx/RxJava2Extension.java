@@ -1,8 +1,8 @@
-package gg.amy.catnip.reactivity.rxjava2;
+package gg.amy.catnip.rx;
 
 import com.mewna.catnip.extension.AbstractExtension;
 import com.mewna.catnip.shard.EventType;
-import gg.amy.catnip.reactivity.CatnipEventStream;
+import gg.amy.catnip.rx.CatnipEventStream;
 import io.reactivex.Observable;
 import io.vertx.reactivex.ObservableHelper;
 

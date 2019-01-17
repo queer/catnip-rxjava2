@@ -1,4 +1,4 @@
-package gg.amy.catnip.reactivity;
+package gg.amy.catnip.rx;
 
 import com.mewna.catnip.shard.EventType;
 import io.vertx.core.Handler;
