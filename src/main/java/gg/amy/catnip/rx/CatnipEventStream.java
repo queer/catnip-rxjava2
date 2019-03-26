@@ -65,7 +65,7 @@ public final class CatnipEventStream<T> implements ReadStream<T> {
             if(!buffer.isEmpty()) {
                 // Assuming that they might update pause-state from another thread
                 while(!buffer.isEmpty() && !paused) {
-                    handler.handle(buffer.pop());
+                    handler.handle(buffer.poll());
                 }
             }
         } catch(final Exception e) {
@@ -78,7 +78,7 @@ public final class CatnipEventStream<T> implements ReadStream<T> {
         long counter = l;
         try {
             while(!buffer.isEmpty() && counter > 0) {
-                handler.handle(buffer.pop());
+                handler.handle(buffer.poll());
                 --counter;
             }
         } catch(final Exception e) {
