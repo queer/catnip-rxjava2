@@ -1,6 +1,6 @@
 package gg.amy.catnip.rx;
 
-import com.mewna.catnip.shard.EventType;
+import com.mewna.catnip.shard.event.EventType;
 import io.vertx.core.Handler;
 import io.vertx.core.streams.ReadStream;
 import lombok.AccessLevel;

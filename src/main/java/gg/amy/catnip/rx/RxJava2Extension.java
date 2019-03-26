@@ -1,7 +1,7 @@
 package gg.amy.catnip.rx;
 
 import com.mewna.catnip.extension.AbstractExtension;
-import com.mewna.catnip.shard.EventType;
+import com.mewna.catnip.shard.event.EventType;
 import io.reactivex.Observable;
 import io.vertx.reactivex.ObservableHelper;
 
